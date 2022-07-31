@@ -1,0 +1,470 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* root */
+.title h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #150544;
+}
+.title p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5A6772;
+}
+p {
+    margin-bottom: 0px !important;
+}
+.box-packages-wrapper {
+    margin-top: 70px;
+}
+/* end root */
+
+.union {
+    z-index: -9999;
+    position: absolute;
+    margin-top: 130px;
+    width: 100%;
+    height: 566.19px;
+    background-image: url(assets/images/Union.svg);
+    background-size: cover;
+}
+
+/* navigation */
+.navbar {
+    margin-top: 40px;
+    font-size: 18px;
+}
+.navbar .logo {
+    font-size: 32px;
+    font-weight: 600;
+}
+.navbar .navbar-btn {
+    border: none;
+    margin-left: 44px;
+    color: white;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background: #150544;
+    transition: .2s ease-in-out;
+}
+ .navbar .navbar-btn:hover {
+        background: #1f0b5a;
+    }
+.navbar-nav .nav-item {
+    margin-left: 44px;
+}
+.navbar-nav .nav-item .active {
+    font-weight: 500;
+}
+
+/* navigation end */
+
+
+/* features  */
+.features {
+    margin-top: 100px;
+}
+
+.item {
+    margin-top: 70px;
+    width: 330px !important;
+}
+.item2 {
+    margin-top: 50px;
+    width: 330px !important;
+}
+
+.item-name {
+    font-size: 18px;
+    color: #150544;
+    font-weight: 500;
+    margin: 24px 0px 6px 0px;
+}
+.item-description {
+    margin-top: 6px;
+    font-size: 16px;
+    color: #5A6772;
+    font-weight: 300;
+    line-height: 24px;
+}
+/* features  end */
+
+
+/* packages  Start */
+.packages {
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+.box-packages {
+    margin-top: 70px;
+    margin-right: 50px;
+    padding: 13px 30px ;
+    width: 320px;
+    height: 580px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150544;
+    border-radius: 11px;
+    background: white;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.05));
+}
+
+.box-packages-2 {
+
+    padding: 13px 30px ;
+    width: 320px;
+    height: 580px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150544;
+    border-radius: 0px 0px 11px 11px; 
+    background: white;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.05));
+}
+.box-packages .text {
+    margin-bottom: 30px;
+}
+.price {
+    margin-bottom: 5px;
+}
+.price .bold {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 78px;
+    color: #150544;
+}
+hr {
+    width: 260px;
+    height: 0px;
+    color: #DFE2E4;
+}
+.packages .list {
+    margin-top: 30px;
+    width: 100%;
+}
+.list p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 14px;
+}
+.list .check-icon {
+    margin-top: 22px;
+}
+.border-darkblue {
+    border: 2px solid #160647;
+}
+.rectangle {
+    width: 320px;
+    height: 50px;
+    padding: 11px 0px;
+    border-radius: 11px 11px 0px 0px;
+    background: #150544;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.btn-blue {
+    border-radius: 8px;
+    margin-top: 30px;
+    width: 260px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    background-color: #6552FF;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    transition: .2s ease-in-out;
+}
+.btn-blue:hover {
+    background-color: #5848cc;
+}
+.btn-darkblue {
+    border-radius: 8px;
+    margin-top: 30px;
+    width: 260px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    background-color: #150544;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    transition: .2s ease-in-out;
+}
+.btn-darkblue:hover {
+    background: #1f0b5a; 
+}
+.background {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 567px;
+    left: 0px;
+    top: 1390px;
+
+    background: #E7F6FF;
+}
+.text-bottom {
+    margin-top: 70px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #150544;
+}
+.credit {
+    margin-bottom: 16px !important;
+}
+.terms {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #150544;
+}
+/* packages  end */
+
+/* story */
+.story {
+    z-index: -99;
+    position: relative;
+    width: 100%;
+    height: 581px;
+    background: #150544;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.story .text {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-top: 120px;
+}
+.union-footer {
+    z-index: -1;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -70px;
+    width: 110%;
+    height: 566.19px;
+    background-image: url(assets/images/Union.png);
+    background-size: cover;
+    
+}
+.petik {
+    margin-left: -100px;
+    margin-top: -30px;
+}
+.lineword{
+    position: relative;
+}
+.lineword::before {
+    content: "";
+    background: #6552FF;
+    width: 98%;
+    height: 2px;
+    bottom: 5px;
+    left: 0px;
+    position: absolute;
+    z-index: -3;
+}
+.pic {
+    margin-top: 50px;
+}
+.name {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+.job {
+    margin-top: 4px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ABA6BB;
+}
+
+@media (max-width:992px) {
+        
+    .union {
+        z-index: -999;
+        position: absolute;
+        margin-top: -390px;
+        width: 100%;
+        height: 540px;
+        background-image: url(assets/images/Union.svg);
+        background-size: cover;
+    }
+    /* navbar mobile display */
+    .navbar {
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    .navbar .logo {
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .navbar .navbar-btn {
+        margin-left: 0px;
+        color: white;
+        border-radius: 8px;
+        width: 150px;
+        height: 50px;
+        background: #150544;
+    }
+    .navbar .navbar-btn:hover {
+        background: #1f0b5a;
+    }
+    .navbar-nav .nav-item {
+        margin-top: 8px;
+        margin-left: 0px;
+    }
+    .navbar-nav .nav-item .active {
+        font-weight: 500;
+    }
+
+    /* features mobile display */
+    .item {
+        margin-top: 70px;
+        width: 100% !important;
+    }
+    .item2 {
+        margin-top: 50px;
+        width: 100% !important;
+    }
+    .item-description {
+        font-size: 14px;
+        color: #5A6772;
+        font-weight: 300;
+        line-height: 24px;
+    }
+    .background {
+        z-index: -99;
+        width: 100%;
+        height: 867px;
+        margin-top: 600px;
+        background: #E7F6FF;
+    }
+
+    .credit {
+        margin-bottom: 14px !important;
+    }
+    .terms {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        text-decoration-line: underline;
+    
+        color: #150544;
+    }
+    .box-packages-wrapper {
+        margin-top: 70px;   
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+        
+    .box-packages {
+        margin-top: 70px;
+        margin-left: 320px;
+        margin-right: 10px;
+        padding: 13px 30px ;
+        width: 320px;
+        height: 580px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #150544;
+        border-radius: 11px;
+        background: white;
+        filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.05));
+    }
+        
+    .box-packages-2 {
+        margin-right: 10px;
+        padding: 13px 30px ;
+        width: 320px;
+        height: 580px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #150544;
+        border-radius: 0px 0px 11px 11px; 
+        background: white;
+        filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.05));
+    }
+
+    /* story mobile display */
+    .story {
+        z-index: -99;
+        position: relative;
+        width: 100%;
+        height: 850px;
+        background: #150544;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .petik {
+        z-index: 999;
+        margin-left: 0px;
+        margin-top: 120px;
+        position: relative;
+    }
+        
+    .story .text {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 54px;
+        text-align: center;
+
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+}
+
+
+@media (min-width:768px) {
+    .box-packages {
+        margin-top: 70px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 13px 30px ;
+        width: 320px;
+        height: 580px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #150544;
+        border-radius: 11px;
+        background: white;
+        filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.05));
+    }
+    
+}
+
+
